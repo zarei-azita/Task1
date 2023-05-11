@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiroTask", "JiroTask\JiroTask.csproj", "{766B8873-386A-47E7-BAED-E6536C4B89FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{F9D824D5-7792-4FC9-8153-9F1C36A1C366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{F3B209F8-F2D6-48F8-AFB6-E2A380F58EF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{766B8873-386A-47E7-BAED-E6536C4B89FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766B8873-386A-47E7-BAED-E6536C4B89FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766B8873-386A-47E7-BAED-E6536C4B89FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766B8873-386A-47E7-BAED-E6536C4B89FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D824D5-7792-4FC9-8153-9F1C36A1C366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D824D5-7792-4FC9-8153-9F1C36A1C366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D824D5-7792-4FC9-8153-9F1C36A1C366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D824D5-7792-4FC9-8153-9F1C36A1C366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B209F8-F2D6-48F8-AFB6-E2A380F58EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B209F8-F2D6-48F8-AFB6-E2A380F58EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B209F8-F2D6-48F8-AFB6-E2A380F58EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B209F8-F2D6-48F8-AFB6-E2A380F58EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BC7C2E7-34BD-4471-82C3-32EAEBE552D6}
+	EndGlobalSection
+EndGlobal
