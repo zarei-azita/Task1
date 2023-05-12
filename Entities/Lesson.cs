@@ -23,10 +23,11 @@ namespace Entities
         [Required(ErrorMessage = ("ظرفیت درس اجباری است"))]
         [MaxLength(3, ErrorMessage = "مقدار {0} نباید بیشتر از {1} کاراکتر باشد")]
         public int Capacity { get; set; }
-        public virtual ICollection<StudentLesson> StudentLessons { get; set; }
 
         [ForeignKey("Professor")]
         public int ProfessorId { get; set; }
         public virtual Professor Professor { get; set; }
+
+        public virtual ICollection<StudentLesson> StudentLessons { get; set; }
     }
 }

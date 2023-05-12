@@ -1,3 +1,4 @@
+using Data.Initialization;
 using Data.Interfaces;
 using Data.Services;
 using Entities.DB;
@@ -14,6 +15,8 @@ builder.Services.AddDbContext<MyDBContext>(option => {
  });
 
 builder.Services.AddTransient<IStudent, StudentServices>();
+builder.Services.AddTransient<IProfessor, ProfessorServices>();
+builder.Services.AddTransient<IOther, OtherServices>();
 
 // Add services to the container.
 
@@ -44,6 +47,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<MyDBContext>();
+    Create create = new Create(dbContext);
+}
+
 app.UseHttpsRedirection();
 
 app.UseRouting();
@@ -53,3 +62,5 @@ app.MapControllers();
 app.UseCors(MyAllowSpecificOrigins);
 
 app.Run();
+
+

@@ -17,6 +17,7 @@ namespace Entities
         public virtual StudentLesson StudentLesson { get; set; }
 
         [Display(Name = "نمره درس")]
-        public double? ScoreLesson { get; set; }
+        [Required(ErrorMessage = ("نمره درس اجباری است"))]
+        public double ScoreLesson { get; set; }
     }
 }
