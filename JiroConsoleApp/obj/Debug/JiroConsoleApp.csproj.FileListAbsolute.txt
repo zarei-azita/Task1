@@ -1,0 +1,8 @@
+C:\Users\azita\source\repos\JiroTask\JiroConsoleApp\bin\Debug\JiroConsoleApp.exe.config
+C:\Users\azita\source\repos\JiroTask\JiroConsoleApp\bin\Debug\JiroConsoleApp.exe
+C:\Users\azita\source\repos\JiroTask\JiroConsoleApp\bin\Debug\JiroConsoleApp.pdb
+C:\Users\azita\source\repos\JiroTask\JiroConsoleApp\obj\Debug\JiroConsoleApp.csproj.AssemblyReference.cache
+C:\Users\azita\source\repos\JiroTask\JiroConsoleApp\obj\Debug\JiroConsoleApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\azita\source\repos\JiroTask\JiroConsoleApp\obj\Debug\JiroConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\azita\source\repos\JiroTask\JiroConsoleApp\obj\Debug\JiroConsoleApp.exe
+C:\Users\azita\source\repos\JiroTask\JiroConsoleApp\obj\Debug\JiroConsoleApp.pdb
