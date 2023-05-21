@@ -9,16 +9,18 @@ namespace JiroConsoleApp.Initialization
         {
             new Student()
             {
-                Id = 1,
+                IdStudent = 1,
+                Name = "azita",
                 EnteringYear = "1392",
-                StudentId = "9217021107",
+                Code = "9217021107",
                 MeliCOde = "3720480452",
                 GPA = null
             },
             new Student(){
-                Id = 2,
+                IdStudent = 2,
+                 Name = "rebaz",
                 EnteringYear = "1397",
-                StudentId = "9717022190",
+                Code = "9717022190",
                 MeliCOde = "3730219901",
                 GPA = null
             }
@@ -49,26 +51,26 @@ namespace JiroConsoleApp.Initialization
             new Lesson()
             {
                 IdLesson =1,
-                CodeLesson = "2021",
+                Name = "computer",
+                Code = "2021",
                 NumberUnit = 3,
                 Capacity = 40,
-                IdProfessor = 1
             },
             new Lesson()
             {
                 IdLesson = 2,
-                CodeLesson = "2011",
+                Name = "C#",
+                Code = "2011",
                 NumberUnit = 3,
                 Capacity = 20,
-                IdProfessor = 1
             },
             new Lesson()
             {
                 IdLesson = 3,
-                CodeLesson = "2111",
+                Name = "Asp.net 5",
+                Code = "2111",
                 NumberUnit = 3,
                 Capacity = 30,
-                IdProfessor = 2
             }
         };
         public static List<StudentLesson> studentLessons = new List<StudentLesson>()
@@ -96,6 +98,24 @@ namespace JiroConsoleApp.Initialization
                 IdStudentLesson = 4,
                 IdLesson = 3,
                 IdStudent = 2
+            }
+        };
+        public static List<ProffesorLesson> proffesorLessons = new List<ProffesorLesson>()
+        {
+             new ProffesorLesson()
+            {
+                IdLesson = 1,
+                IdProffor = 1
+            },
+            new ProffesorLesson()
+            {
+                IdLesson = 2,
+                IdProffor = 2
+            },
+            new ProffesorLesson()
+            {
+                IdLesson = 3,
+                IdProffor = 2
             }
         };
         public static List<Score> scores = new List<Score>();

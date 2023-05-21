@@ -44,25 +44,65 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="APPMenu.cs" />
+    <Compile Include="Entity.cs" />
     <Compile Include="Initialization\Create.cs" />
-    <Compile Include="Interfaces\IOther.cs" />
-    <Compile Include="Interfaces\IProfessor.cs" />
-    <Compile Include="Interfaces\IStudent.cs" />
+    <Compile Include="Interfaces\InterfaceCourse\IAddLesson.cs" />
+    <Compile Include="Interfaces\InterfaceCourse\IGetAllLesson.cs" />
+    <Compile Include="Interfaces\InterfaceCourse\IGetLessonById.cs" />
+    <Compile Include="Interfaces\InterfaceCourse\IGetLessonByIdProffesor.cs" />
+    <Compile Include="Interfaces\InterfaceGPA\IGpa.cs" />
+    <Compile Include="Interfaces\InterfaceProfessor\IAddProffesor.cs" />
+    <Compile Include="Interfaces\InterfaceProfessor\IGetAllProffesor.cs" />
+    <Compile Include="Interfaces\InterfaceProfessor\IGetProffesor.cs" />
+    <Compile Include="Interfaces\InterfaceScore\IAddScore.cs" />
+    <Compile Include="Interfaces\InterfaceScore\IGetStudentsScore.cs" />
+    <Compile Include="Interfaces\InterfaceScore\IUpdateScore.cs" />
+    <Compile Include="Interfaces\InterfaceStudentLesson\IAddStudentLesson.cs" />
+    <Compile Include="Interfaces\InterfaceStudentLesson\IGetStudentLesson.cs" />
+    <Compile Include="Interfaces\InterfaceStudent\IAddStudent.cs" />
+    <Compile Include="Interfaces\InterfaceStudent\IGetALLStudent.cs" />
+    <Compile Include="Interfaces\InterfaceStudent\IGetStudent.cs" />
+    <Compile Include="Interfaces\InterfaceStudent\IRemoveStudent.cs" />
     <Compile Include="Lesson.cs" />
-    <Compile Include="Menu\MenuStatic.cs" />
-    <Compile Include="Model\LessonStudentOutPut.cs" />
+    <Compile Include="Menu\MenuAddLesson.cs" />
+    <Compile Include="Menu\MenuAddProffesor.cs" />
+    <Compile Include="Menu\MenuAddScore.cs" />
+    <Compile Include="Menu\MenuAddStudentLesson.cs" />
+    <Compile Include="Menu\MenuAddStudent.cs" />
+    <Compile Include="Menu\MenuUpdateScore.cs" />
+    <Compile Include="Method\MethodLesson.cs" />
+    <Compile Include="Method\MethodProffesor.cs" />
+    <Compile Include="Method\MethodScore.cs" />
+    <Compile Include="Method\MethodStudent.cs" />
+    <Compile Include="Method\MethodStudentLesson.cs" />
     <Compile Include="Professor.cs" />
+    <Compile Include="ProffesorLesson.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Score.cs" />
-    <Compile Include="Services\OtherServices.cs" />
-    <Compile Include="Services\ProfessorServices.cs" />
-    <Compile Include="Services\StudentServices.cs" />
+    <Compile Include="Services\ServiceCourse\AddService.cs" />
+    <Compile Include="Services\ServiceCourse\GetAllService.cs" />
+    <Compile Include="Services\ServiceCourse\GetByIdProffesorService.cs" />
+    <Compile Include="Services\ServiceCourse\GetService.cs" />
+    <Compile Include="Services\ServiceGpa\GpaService.cs" />
+    <Compile Include="Services\ServiceProffesor\AddService.cs" />
+    <Compile Include="Services\ServiceProffesor\GetAllService.cs" />
+    <Compile Include="Services\ServiceProffesor\GetService.cs" />
+    <Compile Include="Services\ServiceScore\AddService.cs" />
+    <Compile Include="Services\ServiceScore\GetStudentScoreService.cs" />
+    <Compile Include="Services\ServiceScore\UpdateService.cs" />
+    <Compile Include="Services\ServiceStudentLesson\AddService.cs" />
+    <Compile Include="Services\ServiceStudentLesson\GetByStudentIdService.cs" />
+    <Compile Include="Services\ServiceStudent\AddService.cs" />
+    <Compile Include="Services\ServiceStudent\GetService.cs" />
+    <Compile Include="Services\ServiceStudent\GetAllService.cs" />
+    <Compile Include="Services\ServiceStudent\RemoveService.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="StudentLesson.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
