@@ -1,5 +1,4 @@
-﻿using JiroConsoleApp.Initialization;
-using System;
+﻿using System;
 
 namespace JiroConsoleApp
 {

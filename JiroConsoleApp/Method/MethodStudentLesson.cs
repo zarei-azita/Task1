@@ -28,7 +28,7 @@ namespace JiroConsoleApp.Method
                     getStudentLesson.GetStudentLessons();
 
                     break;
-                case 5:
+                case 3:
                     Console.ForegroundColor = ConsoleColor.White;
                     APPMenu aPPMenu = new APPMenu();
                     aPPMenu.Menu();

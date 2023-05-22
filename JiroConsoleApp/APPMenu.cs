@@ -16,6 +16,7 @@ namespace JiroConsoleApp
             Console.WriteLine("4- Student and Lesson");
             Console.WriteLine("5- Score");
             Console.WriteLine("6- Calculate GPA");
+            Console.WriteLine("7- Exit");
             Console.WriteLine("Please Select The Number:");
         }   
         public void Menu()
@@ -45,14 +46,14 @@ namespace JiroConsoleApp
 
                     break;
                 case 6:
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
                     IGpa gpa = new GpaService();
                     gpa.GPAcalculation();
+                    Console.ResetColor();
 
                     break;
-                default:
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("number is wrong...");
-                    Console.ForegroundColor = ConsoleColor.White;
+                case 7:
+                    Environment.Exit(0);
                     break;
             }
             Console.ResetColor();
